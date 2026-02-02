@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carlup Catálogo</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#111111" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo-dot"></div>
+      <div>
+        <div class="brand-title">Carlup</div>
+        <div class="brand-sub">Catálogo</div>
+      </div>
+    </div>
+    <button id="btnInstall" class="btn ghost" hidden>Instalar</button>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <input id="q" class="input" type="search" placeholder="Buscar MOD (ej. 35, 142…)" />
+
+      <div class="filters">
+        <select id="fibra" class="select">
+          <option value="">Fibra (todas)</option>
+          <option value="Acrilan">Acrilan</option>
+          <option value="Viscosa">Viscosa</option>
+        </select>
+
+        <select id="color" class="select">
+          <option value="">Color (todos)</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="grid" class="grid"></section>
+
+    <section id="modal" class="modal hidden" aria-hidden="true">
+      <div class="modal-card">
+        <button id="closeModal" class="modal-close">✕</button>
+        <div id="modalContent"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "mod": "35",
+    "fibra": "Viscosa",
+    "colores": ["Negro", "Marino", "Oxford"],
+    "fotos": ["img/mod35_1.jpeg", "img/mod35_2.jpeg","img/mod35_3.jpeg"]
+  },
+  {
+    "mod": "142",
+    "fibra": "Acrilan",
+    "colores": ["Negro", "Vino", "Beige"],
+    "fotos": ["img/demo/mod142_1.jpg"]
+  }
+]

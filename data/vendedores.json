@@ -1,0 +1,5 @@
+[
+  { "id": "v1", "nombre": "Vendedor 1", "telefono": "527751272268" },
+  { "id": "v2", "nombre": "Vendedor 2", "telefono": "527757588944" },
+  { "id": "v3", "nombre": "Vendedor 3", "telefono": "527757714006" }
+]
